@@ -1,56 +1,71 @@
-*{
-    margin: 0;
-    box-sizing: border-box;
-}
 
-
-
-
-.header{
-    background-color: steelblue;
-    height: 12%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-}
-
-.logo{
-    font-size: 30px;
-    font-weight: bold;
-    padding: 0 40px;
-    line-height: 80px;
-    
-}
-
-.nav-link{
+#navegadorLateral {
+    position: absolute;
+    top: 12%;
+    left: 80%;
+    height: 81%;
+    width: 20%;
+    background-color: tan;
     color: white;
-    text-decoration: none;
-    
 }
 
-.nav-menu{
-    display: flex;
-    margin-right: 40px;
-    list-style: none;
-    
+#contenido {
+    position: absolute;
+    top: 12%;
+    left: 0;
+    height: 81%;
+    width: 80%;
+    background-color: whitesmoke;
+    color: black;
+    overflow: auto;
 }
 
-.nav-menu-item{
-    font-size: 18px;
-    margin: 0 16px;
-    line-height: 80px;
-    width: max-content;    
+.descripcion{
+    font-size: 15px;
 }
 
-.nav-menu-link{
-    padding: 8px 12px;
-    border-radius: 10px;
-    
+#tablaResumen tr:nth-child(odd){
+    background-color: whitesmoke;
+    color: white;
 }
 
-.nav-menu-link:hover{
-    background-color: lightskyblue;
-    transition: 0.7s;
-    
+#tablaResumen tr:nth-child(even){
+    background-color: whitesmoke;
+    color: white;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#piePagina{
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    height: 7%;
+    width: 100%;
+    background-color: steelblue;
+    color: tan;
+    vertical-align: middle;
+}
+
+.lineasDireccion{
+    text-align: center
+}
+
