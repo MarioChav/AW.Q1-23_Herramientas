@@ -26,12 +26,12 @@
 
 #tablaResumen tr:nth-child(odd){
     background-color: whitesmoke;
-    color: white;
+    color: black;
 }
 
 #tablaResumen tr:nth-child(even){
     background-color: whitesmoke;
-    color: white;
+    color: black;
 }
 
 

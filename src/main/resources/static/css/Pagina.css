@@ -109,3 +109,46 @@
     
 }
 
+
+
+
+
+
+
+
+
+
+.nav-linkContenido{
+    color: black;
+    text-decoration: none;
+    
+    
+}
+
+.nav-menuContenido{
+    text-align: center;
+    margin-right: 40px;
+    list-style: none;
+    
+    
+}
+
+.nav-menu-itemContenido{
+    font-size: 18px;
+    margin: 0 16px;
+    line-height: 80px;
+    width: max-content;    
+}
+
+
+.nav-menu-linkContenido{
+    padding: 8px 12px;
+    border-radius: 10px;
+    
+}
+
+.nav-menu-linkContenido:hover{
+    background-color: tan;
+    transition: 0.7s;
+    
+}
